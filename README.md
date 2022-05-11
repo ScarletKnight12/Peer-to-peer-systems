@@ -1,7 +1,7 @@
-## Peer-to-peer-systems
+# Peer-to-peer-systems
 Peer to peer group based, file sharing system, using socket programming, SHA-1, Multithreading.
 
-# Architecture Overview:
+## Architecture Overview:
 The Following entities will be present in the network :
 1. Synchronized trackers(2 tracker system) :
 a. Maintain information of clients with their files(shared by client) to assist the
@@ -30,7 +30,7 @@ l. Stop sharing file
 m. Stop sharing all files(Logout)
 n. Whenever client logins, all previously shared files before logout should
 automatically be on sharing mode
-# Working:
+## Working:
 1. At Least one tracker will always be online.
 2. Client needs to create an account (userid and password) in order to be part of the
 network.
